@@ -14,9 +14,7 @@ class ViewController: UIViewController {
         
     }
     
-    @IBOutlet weak var txl: UITextField!
-    
-    @IBOutlet weak var search: UITextField!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

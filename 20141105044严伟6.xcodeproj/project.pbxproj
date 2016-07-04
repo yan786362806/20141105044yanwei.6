@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40233B0D1D29FB1D008A9366 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40233B0C1D29FB1D008A9366 /* libsqlite3.0.tbd */; };
+		40233B101D29FC0E008A9366 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 40233B0F1D29FC0E008A9366 /* data.db */; };
+		40233B121D29FC17008A9366 /* SQLiteDB in Resources */ = {isa = PBXBuildFile; fileRef = 40233B111D29FC17008A9366 /* SQLiteDB */; };
 		4052C5261D2670F7004F527C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C5251D2670F7004F527C /* AppDelegate.swift */; };
 		4052C5281D2670F7004F527C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C5271D2670F7004F527C /* ViewController.swift */; };
 		4052C52B1D2670F7004F527C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4052C5291D2670F7004F527C /* Main.storyboard */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40233B0C1D29FB1D008A9366 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		40233B0E1D29FB64008A9366 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		40233B0F1D29FC0E008A9366 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		40233B111D29FC17008A9366 /* SQLiteDB */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SQLiteDB; sourceTree = "<group>"; };
 		4052C5221D2670F7004F527C /* 20141105044严伟6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20141105044严伟6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4052C5251D2670F7004F527C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4052C5271D2670F7004F527C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40233B0D1D29FB1D008A9366 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,9 @@
 		4052C5191D2670F7004F527C = {
 			isa = PBXGroup;
 			children = (
+				40233B0C1D29FB1D008A9366 /* libsqlite3.0.tbd */,
+				40233B0F1D29FC0E008A9366 /* data.db */,
+				40233B111D29FC17008A9366 /* SQLiteDB */,
 				4052C5241D2670F7004F527C /* 20141105044严伟6 */,
 				4052C5391D2670F7004F527C /* 20141105044严伟6Tests */,
 				4052C5441D2670F7004F527C /* 20141105044严伟6UITests */,
@@ -103,6 +114,7 @@
 				4052C52C1D2670F7004F527C /* Assets.xcassets */,
 				4052C52E1D2670F7004F527C /* LaunchScreen.storyboard */,
 				4052C5311D2670F7004F527C /* Info.plist */,
+				40233B0E1D29FB64008A9366 /* Header.h */,
 			);
 			path = "20141105044严伟6";
 			sourceTree = "<group>";
@@ -230,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4052C5301D2670F7004F527C /* LaunchScreen.storyboard in Resources */,
+				40233B101D29FC0E008A9366 /* data.db in Resources */,
+				40233B121D29FC17008A9366 /* SQLiteDB in Resources */,
 				4052C52D1D2670F7004F527C /* Assets.xcassets in Resources */,
 				4052C52B1D2670F7004F527C /* Main.storyboard in Resources */,
 			);
@@ -403,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.-0141105044--6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/20141105044y/Desktop/20141105044严伟6/20141105044严伟6/Header.h";
 			};
 			name = Debug;
 		};
@@ -414,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.-0141105044--6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/20141105044y/Desktop/20141105044严伟6/20141105044严伟6/Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +498,7 @@
 				4052C54C1D2670F7004F527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4052C54D1D2670F7004F527C /* Build configuration list for PBXNativeTarget "20141105044严伟6Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				4052C54F1D2670F7004F527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4052C5501D2670F7004F527C /* Build configuration list for PBXNativeTarget "20141105044严伟6UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				4052C5521D2670F7004F527C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
